@@ -1,0 +1,44 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff8dc;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: Papyrus, fantasy;
+}
+
+.card {
+  background-color: #f4d2a7;
+  position: relative;
+  padding: 30px;
+  width: 350px;
+  height: 520px;
+  border-radius: 5px;
+  border: black 1px solid;
+}
+
+.char__nation {
+  height: 60px;
+  position: absolute;
+  left: 50%;
+  top: -30px;
+  transform: translate(-50%, 0);
+}
+
+.char__name {
+  text-align: center;
+}
+
+.char__img {
+  width: 100%;
+  border-radius: 5px;
+  border: black 1px solid;
+}
+
+.char__description {
+  padding: 10px;
+  border: black 1px solid;
+  height: 220px;
+  text-align: justify;
+}
